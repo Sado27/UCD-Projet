@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site CV - Modèle 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="https://www.estsb.ucd.ac.ma/wp-content/uploads/2023/04/fff-removebg-preview.png" alt="Logo Université Chouaib Doukkali" class="logo">
+        <h1>Portail des CV</h1>
+    </header>
+    <main class="container">
+        <nav class="tab-menu">
+            <button class="tab-link active" onclick="openTab('cv1')">Oussama HATNI</button>
+            <button class="tab-link" onclick="openTab('cv2')">Shadow</button>
+        </nav>
+        <section id="cv1" class="tab-content">
+            <h2>Oussama HATNI</h2>
+            <p><strong>Profession :</strong> Etudianr au licence CCA</p>
+            <p><strong>Compétences :</strong> Compatabilite fisca ifrs</p>
+            <p><strong>Expérience :</strong> 1 an chez un comptable </p>
+            <a href="C:\Users\oussama\OneDrive\Bureau\UCD Projet" download="CV_Jean_Dupont.pdf" class="download-btn">Télécharger le CV</a>
+        </section>
+        <section id="cv2" class="tab-content" style="display: none;">
+            <h2>Marie Curie</h2>
+            <p><strong>Profession :</strong> Scientifique</p>
+            <p><strong>Compétences :</strong> Recherche, Chimie, Physique</p>
+            <p><strong>Expérience :</strong> Prix Nobel en Chimie et Physique.</p>
+            <a href="cv2.pdf" download="CV_Marie_Curie.pdf" class="download-btn">Télécharger le CV</a>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
